@@ -493,5 +493,26 @@ $(function () {
     });
 
 
+    // isotope js
+
+    var $grid = $('.grid').isotope({});
+
+    $('.wsus__pgoto_filter').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+
+    //active class
+    $('.wsus__pgoto_filter button').on("click", function (event) {
+
+        $(this).siblings('.active').removeClass('active');
+        $(this).addClass('active');
+        event.preventDefault();
+
+    });
+
+
 
 });
