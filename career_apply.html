@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/select2.min.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -214,10 +215,10 @@
             <div class="row">
                 <div class="col-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                     <div class="wsus__breadcrumb_text">
-                        <h1>Photo Gallery</h1>
+                        <h1>Career apply</h1>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li>photo gallery</li>
+                            <li>Career apply</li>
                         </ul>
                     </div>
                 </div>
@@ -230,100 +231,119 @@
 
 
     <!--============================
-        PHOTO GALLERY START
+        CAREER APPLY START
     =============================-->
-    <div class="wsus__photo_gallery mt_115 xs_mt_95">
+    <section class="wsus__career_apply mt_115 xs_mt_95">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="wsus__pgoto_filter">
-                        <button type="button" class="active" data-filter="*">View All</button>
-                        <button type="button" data-filter=".business"> Business Services </button>
-                        <button type="button" data-filter=".technology">Technology</button>
-                        <button type="button" data-filter=".marketing">Marketing</button>
-                        <button type="button" data-filter=".development">Development</button>
-                        <button type="button" data-filter=".finance">Finance</button>
+            <form action="#">
+                <h4>Apply in this job</h4>
+                <div class="row">
+                    <div class="col-xl-6">
+                        <label for="#">First Name</label>
+                        <input type="text" placeholder="First Name">
                     </div>
+                    <div class="col-xl-6">
+                        <label for="#">Last Name</label>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">Last Name</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">Last Name</label>
+                        <input type="text" placeholder="Phone">
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">Country</label>
+                        <select class="select_2" name="state">
+                            <option value="">select Country</option>
+                            <option value="">Australian</option>
+                            <option value="">bangladesh</option>
+                            <option value="">canada</option>
+                            <option value="">denmark</option>
+                            <option value="">egypt</option>
+                            <option value="">bangladesh</option>
+                            <option value="">gabon</option>
+                            <option value="">china</option>
+                            <option value="">south korea</option>
+                            <option value="">india</option>
+                            <option value="">saudi arabia</option>
+                            <option value="">jordan</option>
+                            <option value="">iran</option>
+                            <option value="">qutar</option>
+                            <option value="">turky</option>
+                            <option value="">UAE</option>
+                            <option value="">USA</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">City</label>
+                        <select class="select_2" name="state">
+                            <option value="">select City</option>
+                            <option value="">Australian</option>
+                            <option value="">bangladesh</option>
+                            <option value="">canada</option>
+                            <option value="">denmark</option>
+                            <option value="">egypt</option>
+                            <option value="">bangladesh</option>
+                            <option value="">gabon</option>
+                            <option value="">china</option>
+                            <option value="">south korea</option>
+                            <option value="">india</option>
+                            <option value="">saudi arabia</option>
+                            <option value="">jordan</option>
+                            <option value="">iran</option>
+                            <option value="">qutar</option>
+                            <option value="">turky</option>
+                            <option value="">UAE</option>
+                            <option value="">USA</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">Address</label>
+                        <input type="text" placeholder="Address">
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">Zip Code</label>
+                        <input type="text" placeholder="Zip Code">
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">Experience</label>
+                        <input type="text" placeholder="Experience">
+                    </div>
+                    <div class="col-xl-6">
+                        <label for="#">Expected Salary</label>
+                        <input type="text" placeholder="Expected Salary">
+                    </div>
+                    <div class="col-xl-12">
+                        <label for="#">Cover Letter</label>
+                        <textarea rows="7"
+                            placeholder="Notes about your Passion, e.g. special notes for Job."></textarea>
+                    </div>
+                    <div class="col-12">
+                        <label for="#">Attach Resume *</label>
+                        <input type="file" class="file">
+                        <p>(Only doc, docx or pdf are allowed)</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                By using this form you agree with the storage and handling of your data by this website.
+                            </label>
+                        </div>
+                        <button type="submit" class="common_btn">Submit Application <i
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+
+
                 </div>
-            </div>
-            <div class="row grid">
-                <div class="col-xl-4 business development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_1.jpg">
-                        <img src="images/gallery_img_1.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 technology finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_2.jpg">
-                        <img src="images/gallery_img_2.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 marketing finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_3.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 business finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_4.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 technology development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_5.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 business development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_6.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 technology finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_7.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 business development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_8.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 marketing finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_9.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-            </div>
+            </form>
         </div>
-    </div>
+    </section>
     <!--============================
-        PHOTO GALLERY END
+        CAREER APPLY END
     =============================-->
 
 
@@ -473,7 +493,9 @@
     <script src="js/slick.min.js"></script>
     <script src="js/venobox.min.js"></script>
     <script src="js/scroll_button.js"></script>
+    <script src="js/select2.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/range_slider.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>

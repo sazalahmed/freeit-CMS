@@ -514,5 +514,108 @@ $(function () {
     });
 
 
+    // range slider
+    $('.basic').alRangeSlider();
+    const options = {
+        range: { min: 10, max: 1000, step: 1 },
+        initialSelectedValues: { from: 200, to: 800 },
+        grid: { minTicksStep: 1, marksStep: 5 },
+        theme: "dark",
+    };
+
+    $('.range_slider').alRangeSlider(options);
+    const options2 = {
+        orientation: "vertical"
+    };
+
+
+    // product_details slider
+    $('.slider-forFive').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        asNavFor: '.slider-navFive',
+        nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
+
+    });
+
+    $('.slider-navFive').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.slider-forFive',
+        arrows: false,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        centerPadding: 0,
+    });
+
+
+    // releted_product  slider
+    $('.releted_product').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+    // start rating
+    const stars = document.querySelectorAll(".select_rating i");
+    stars.forEach((star, index1) => {
+        star.addEventListener("click", () => {
+            stars.forEach((star, index2) => {
+                index1 >= index2 ? star.classList.add("active") : star.classList.remove("active");
+            });
+        });
+    });
+
+
+    // select 2 js
+    $(document).ready(function () {
+        $('.select_2').select2();
+    });
 
 });

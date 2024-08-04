@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/select2.min.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -214,10 +215,10 @@
             <div class="row">
                 <div class="col-12 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                     <div class="wsus__breadcrumb_text">
-                        <h1>Photo Gallery</h1>
+                        <h1>Checkout</h1>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li>photo gallery</li>
+                            <li>checkout</li>
                         </ul>
                     </div>
                 </div>
@@ -230,100 +231,221 @@
 
 
     <!--============================
-        PHOTO GALLERY START
+        CHECKOUT START
     =============================-->
-    <div class="wsus__photo_gallery mt_115 xs_mt_95">
+    <section class="wsus__checkout mt_110 xs_mt_90">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="wsus__pgoto_filter">
-                        <button type="button" class="active" data-filter="*">View All</button>
-                        <button type="button" data-filter=".business"> Business Services </button>
-                        <button type="button" data-filter=".technology">Technology</button>
-                        <button type="button" data-filter=".marketing">Marketing</button>
-                        <button type="button" data-filter=".development">Development</button>
-                        <button type="button" data-filter=".finance">Finance</button>
+            <div class="wsus__shipping_address mb_40">
+                <h4>Shipping Address</h4>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp">
+                        <div class="wsus__shipping_address_item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1">98 Winn St, Woburn, MA
+                                    01801,USA</label>
+                            </div>
+                            <div class="wsus__shipping_mail_address">
+                                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                                <a href="callto:+(402)76328246">+(402) 763 282 46</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp">
+                        <div class="wsus__shipping_address_item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2">98 Winn St, Woburn, MA 01801,
+                                    USA</label>
+                            </div>
+                            <div class="wsus__shipping_mail_address">
+                                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                                <a href="callto:+(402)76328246">+(402) 763 282 46</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp">
+                        <div class="wsus__shipping_address_item">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                    value="option3">
+                                <label class="form-check-label" for="inlineRadio3">98 Winn St, Woburn, MA 01801,
+                                    USA</label>
+                            </div>
+                            <div class="wsus__shipping_mail_address">
+                                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                                <a href="callto:+(402)76328246">+(402) 763 282 46</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row grid">
-                <div class="col-xl-4 business development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_1.jpg">
-                        <img src="images/gallery_img_1.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 technology finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_2.jpg">
-                        <img src="images/gallery_img_2.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 marketing finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_3.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 business finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_4.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 technology development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_5.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 business development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_6.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 technology finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_7.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 business development">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_8.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-xl-4 marketing finance">
-                    <a class="wsus__photo_gallery_item venobox" data-gall="gallery01" href="images/gallery_img_3.jpg">
-                        <img src="images/gallery_img_9.jpg" alt="gallery1" class="img-fluid w-100">
-                        <span class="gal_img_overlay">
-                            <i class="far fa-plus"></i>
-                        </span>
-                    </a>
+            <div class="wsus__checkout_area">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-8 wow fadeInUp">
+                        <form action="#" class="wsus__checkout_form">
+                            <h4>Billing Details</h4>
+                            <div class="row">
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>First Name*</label>
+                                        <input type="text" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>Last Name</label>
+                                        <input type="text" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>Email Address*</label>
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>Phone*</label>
+                                        <input type="text" placeholder="Phone">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>Country Name</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">select Country</option>
+                                            <option value="">Australian</option>
+                                            <option value="">bangladesh</option>
+                                            <option value="">canada</option>
+                                            <option value="">denmark</option>
+                                            <option value="">egypt</option>
+                                            <option value="">bangladesh</option>
+                                            <option value="">gabon</option>
+                                            <option value="">china</option>
+                                            <option value="">south korea</option>
+                                            <option value="">india</option>
+                                            <option value="">saudi arabia</option>
+                                            <option value="">jordan</option>
+                                            <option value="">iran</option>
+                                            <option value="">qutar</option>
+                                            <option value="">turky</option>
+                                            <option value="">UAE</option>
+                                            <option value="">USA</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>City</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">select city</option>
+                                            <option value="">melborn</option>
+                                            <option value="">dhaka</option>
+                                            <option value="">torento</option>
+                                            <option value="">yeal</option>
+                                            <option value="">kayro</option>
+                                            <option value="">sylet</option>
+                                            <option value="">antorio</option>
+                                            <option value="">beyjing</option>
+                                            <option value="">seoal</option>
+                                            <option value="">mumbai</option>
+                                            <option value="">jedda</option>
+                                            <option value="">istanbul</option>
+                                            <option value="">tehran</option>
+                                            <option value="">doha</option>
+                                            <option value="">ankara</option>
+                                            <option value="">dubai</option>
+                                            <option value="">new york</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>State / Province</label>
+                                        <input type="text" placeholder="State / Province">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xl-6">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>Zip / Postal Code</label>
+                                        <input type="text" placeholder="Zip Code">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>Street address</label>
+                                        <input type="text" placeholder="House number and street name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="wsus__checkout_form_input">
+                                        <label>Note</label>
+                                        <textarea rows="6" placeholder="Write Something"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <ul class="wsus__checkout_form_btn">
+                                        <li><a href="cart.html" class="common_btn cart_list_btn">Cart
+                                                List</a>
+                                        </li>
+                                        <li><a href="payment.html" class="common_btn">Payment</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp">
+                        <div class="wsus__billing_summary">
+                            <h4>Billing Summery</h4>
+                            <ul class="wsus__billing_product">
+                                <li>
+                                    <a href="#" class="img">
+                                        <img src="images/product_cart_1.jpg" alt="product" class="img-fluid w-100">
+                                    </a>
+                                    <div class="text">
+                                        <a href="#">Black Sneakers</a>
+                                        <h6>$120.00</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="img">
+                                        <img src="images/product_cart_2.jpg" alt="product" class="img-fluid w-100">
+                                    </a>
+                                    <div class="text">
+                                        <a href="#">Black Sneakers</a>
+                                        <h6>$120.00</h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="img">
+                                        <img src="images/product_cart_3.jpg" alt="product" class="img-fluid w-100">
+                                    </a>
+                                    <div class="text">
+                                        <a href="#">Black Sneakers</a>
+                                        <h6>$120.00</h6>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="wsus__total_price">
+                                <h3>Total <span>$ 360.00</span></h3>
+                                <p>Shipping Charge <span>00.00</span></p>
+                                <p>Discount <span>00.00</span></p>
+                                <p>Tax <span>00.00</span></p>
+                            </div>
+                            <h5>Sub Total <span>$ 360.00</span></h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--============================
-        PHOTO GALLERY END
+        CHECKOUT END
     =============================-->
 
 
@@ -473,7 +595,9 @@
     <script src="js/slick.min.js"></script>
     <script src="js/venobox.min.js"></script>
     <script src="js/scroll_button.js"></script>
+    <script src="js/select2.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/range_slider.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
