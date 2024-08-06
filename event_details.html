@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/scroll_button.css">
+    <link rel="stylesheet" href="css/range_slider.css">
+    <link rel="stylesheet" href="css/select2.min.css">
 
     <link rel="stylesheet" href="css/spacing.css">
     <link rel="stylesheet" href="css/style.css">
@@ -98,53 +100,59 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about_us.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services <i class="far fa-angle-down"></i></a>
                         <ul class="wsus__droap_menu">
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Service details</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="service_details.html">Service details</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#">Portfolio <i class="far fa-angle-down"></i></a>
+                        <ul class="wsus__droap_menu">
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio_details.html">Portfolio details</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="#">Shop <i class="far fa-angle-down"></i></a>
+                        <ul class="wsus__droap_menu">
+                            <li><a href="product.html">Shop</a></li>
+                            <li><a href="product_details.html">Shop details</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
                         <ul class="wsus__droap_menu">
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">shoping cart</a></li>
-                            <li><a href="#">checkout</a></li>
-                            <li><a href="#">payment</a></li>
-                            <li><a href="#">product</a></li>
-                            <li><a href="#">programs</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">trainers</a></li>
-                            <li><a href="#">workout</a></li>
-                            <li><a href="#">workout details</a></li>
-                            <li><a href="#">Blog Details</a></li>
-                            <li><a href="#">product details</a></li>
-                            <li><a href="#">program details</a></li>
-                            <li><a href="#">service details</a></li>
-                            <li><a href="#">trainer details</a></li>
-                            <li><a href="#">photo gallery</a></li>
-                            <li><a href="#">video gallery</a></li>
-                            <li><a href="#">award</a></li>
-                            <li><a href="#">dashboard</a></li>
-                            <li><a href="#">faq's</a></li>
-                            <li><a href="#">log in</a></li>
-                            <li><a href="#">resistration</a></li>
-                            <li><a href="#">Error/404</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms And Conditio</a></li>
+                            <li><a href="contact_us.html">Contact Us</a></li>
+                            <li><a href="checkout.html">checkout</a></li>
+                            <li><a href="cart_view.html">cart view</a></li>
+                            <li><a href="payment.html">payment</a></li>
+                            <li><a href="product.html">product</a></li>
+                            <li><a href="faq.html">faq's</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="sign_in.html">sign in</a></li>
+                            <li><a href="sign_up.html">sign up</a></li>
+                            <li><a href="error.html">Error/404</a></li>
+                            <li><a href="team.html">team</a></li>
+                            <li><a href="team_details.html">team details</a></li>
+                            <li><a href="career.html">career</a></li>
+                            <li><a href="career_details.html">career details</a></li>
+                            <li><a href="career_apply.html">career apply</a></li>
+                            <li><a href="photo_gallery.html">photo gallery</a></li>
+                            <li><a href="video_gallery.html">video gallery</a></li>
+                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a href="terms_&_condition.html">Terms And Condition</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blogs.html">Blog</a>
+                        <a class="nav-link" href="#">Blog <i class="far fa-angle-down"></i></a>
+                        <ul class="wsus__droap_menu">
+                            <li><a href="blogs.html">Blog</a></li>
+                            <li><a href="blog_details.html">Blog details</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <ul class="right_menu d-flex flex-wrap align-items-center">
@@ -155,7 +163,7 @@
                             </span>
                         </a>
                         <div class="wsus__droap_cart">
-                            <h5>Cart Items <a href="#">View Cart</a></h5>
+                            <h5>Cart Items <a href="cart_view.html">View Cart</a></h5>
                             <ul class="wsus__droap_cart_list">
                                 <li>
                                     <a href="#" class="img">
@@ -195,7 +203,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#" class="common_btn">Let’s Talk</a>
+                        <a href="contact_us.html" class="common_btn">Let’s Talk</a>
                     </li>
                 </ul>
             </div>
@@ -659,12 +667,23 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
+    <!--nice select js-->
     <script src="js/jquery.nice-select.min.js"></script>
+    <!--counter up js-->
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
+    <!--slick slider js-->
     <script src="js/slick.min.js"></script>
+    <!--venobox js-->
     <script src="js/venobox.min.js"></script>
+    <!--scroll button js-->
     <script src="js/scroll_button.js"></script>
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--range slider js-->
+    <script src="js/range_slider.js"></script>
+    <!--select 2 js-->
+    <script src="js/select2.min.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
