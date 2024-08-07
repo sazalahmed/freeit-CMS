@@ -1,12 +1,810 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {}
+@media (min-width: 1600px) and (max-width: 1800px) {
+
+    .wsus__portfolio_2_item {
+        height: 590px;
+    }
+
+    .wsus__testimonial_2 .slick-list.draggable {
+        padding: 0px 250px !important;
+    }
+
+}
+
+
+@media (min-width: 1400px) and (max-width: 1599.99px) {
+
+    /* ==========================
+        HOME PAGE 01 START
+    ========================== */
+    .wsus__banner_img .img {
+        height: 700px;
+    }
+
+    .about_text {
+        padding-left: 30px;
+    }
+
+    .wsus_portfolio_item {
+        height: 350px;
+    }
+
+    .wsus_portfolio_text b {
+        font-size: 18px;
+    }
+
+    .wsus__single_testimonial_text {
+        max-width: 69%;
+    }
+
+    .call_to_action_text {
+        padding: 50px 25px;
+    }
+
+    .call_to_action_text a {
+        width: 90px;
+        height: 90px;
+    }
+
+    .wsus__events_text ul li a b {
+        max-width: 59%;
+    }
+
+    .right_menu li .wsus__droap_cart {
+        left: auto;
+        right: 0;
+    }
+
+    .progress-wrap {
+        right: 30px;
+        bottom: 30px;
+    }
+
+    /* ==========================
+        HOME PAGE 01 END
+    ========================== */
+
+
+    /* ==========================
+        HOME PAGE 02 START
+    ========================== */
+
+    .wsus__portfolio_2_item {
+        height: 520px;
+    }
+
+    .wsus__portfolio_2_item .text {
+        padding: 35px;
+    }
+
+    .wsus__testimonial_2 .slick-list.draggable {
+        padding: 0px 200px !important;
+    }
+
+    .wsus__single_event_2_text {
+        padding: 35px;
+    }
 
 
 
-@media (min-width: 992px) and (max-width: 1199.99px) {}
 
 
 
-@media (min-width: 768px) and (max-width: 991.99px) {}
+
+
+
+    /* ==========================
+        HOME PAGE 02 END
+    ========================== */
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    /* ==========================
+        HOME PAGE 01 START
+    ========================== */
+    .wsus__banner_text h1 {
+        font-size: 66px;
+    }
+
+    .wsus__banner_img .img {
+        height: 690px;
+    }
+
+    .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .single_counter h2,
+    .single_counter h2 span {
+        font-size: 94px;
+    }
+
+    .wsus__features_img {
+        height: 200px;
+    }
+
+    .wsus_portfolio_item {
+        height: 410px;
+    }
+
+    .wsus__single_img {
+        height: 320px;
+    }
+
+    .wsus__single_testimonial_text {
+        max-width: 64%;
+        padding: 25px;
+    }
+
+    .wsus__footer_instagram ul li a {
+        width: 65px;
+        height: 65px;
+    }
+
+    .wsus__events_text ul li a b {
+        max-width: 100%;
+    }
+
+    .call_to_action_text {
+        padding: 50px 30px 50px 20px;
+    }
+
+    .call_to_action_text h4 {
+        font-size: 24px;
+    }
+
+    .call_to_action::after {
+        width: 170px;
+        height: 115px;
+    }
+
+    .call_to_action_text a {
+        width: 90px;
+        height: 90px;
+    }
+
+    .call_to_action_text ul {
+        margin-bottom: 30px;
+    }
+
+    .wsus__single_blog_img {
+        height: 210px;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        margin: 0px 20px;
+    }
+
+    .about_text {
+        padding-left: 30px;
+    }
+
+    .right_menu li .wsus__droap_cart {
+        left: auto;
+        right: 0;
+    }
+
+    .progress-wrap {
+        right: 30px;
+        bottom: 30px;
+    }
+
+    /* ==========================
+        HOME PAGE 01 END
+    ========================== */
+
+    /* ==========================
+        HOME PAGE 02 START
+    ========================== */
+    .wsus__single_service_img {
+        height: 240px;
+    }
+
+    .wsus__portfolio_2_item {
+        height: 595px;
+    }
+
+    .wsus__single_team_2 {
+        height: 510px;
+    }
+
+    .wsus__testimonial_2 .slick-list.draggable {
+        padding: 0px 100px !important;
+    }
+
+    .wsus__single_event_2_img {
+        width: 240px;
+    }
+
+    .wsus__single_event_2_text {
+        width: 56%;
+        padding: 30px;
+    }
+
+    .wsus__portfolio_2_item .text {
+        padding: 35px;
+    }
+
+
+
+
+    /* ==========================
+        HOME PAGE 02 END
+    ========================== */
+
+
+
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /* ==========================
+        HOME PAGE 01 START
+    ========================== */
+    .main_menu .navbar-brand {
+        max-width: 100px;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+        margin: 0px 15px;
+    }
+
+    .wsus__banner_text h1 {
+        font-size: 56px;
+    }
+
+    .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .wsus__banner_img .img {
+        height: 630px;
+    }
+
+    .banner_hotline {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .banner_hotline p {
+        font-size: 24px;
+        max-width: 200px;
+    }
+
+    .about_img_area {
+        padding: 0px 35px;
+    }
+
+    .about_img {
+        height: 250px;
+    }
+
+    .about_list_img {
+        position: initial;
+        margin-top: 25px;
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    .about_text {
+        padding-left: 0;
+    }
+
+    .single_counter h2,
+    .single_counter h2 span {
+        font-size: 84px;
+    }
+
+    .wsus__features_img {
+        height: 255px;
+    }
+
+    .wsus_portfolio_item {
+        height: 510px;
+    }
+
+    .wsus__single_img {
+        height: 365px;
+    }
+
+    .wsus__single_testimonial_text {
+        max-width: 58%;
+        padding: 25px;
+    }
+
+    .call_to_action_text {
+        padding: 40px 20px;
+    }
+
+    .call_to_action_text h4 {
+        font-size: 26px;
+    }
+
+    .call_to_action::after {
+        display: none;
+    }
+
+    .call_to_action_text a {
+        width: 90px;
+        height: 90px;
+    }
+
+    .call_to_action_text ul {
+        margin-bottom: 20px;
+    }
+
+    .wsus__events_text ul li a b {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .wsus__events_text ul li a {
+        padding: 20px;
+    }
+
+    .wsus__events_img {
+        height: 420px;
+        margin-left: 0;
+    }
+
+    .wsus__events_img .text {
+        padding: 30px;
+    }
+
+    .wsus__single_blog_img {
+        height: 265px;
+    }
+
+    .wsus__footer_instagram {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .portfolio .slick-dots li button {
+        width: 60px;
+    }
+
+    .right_menu li .wsus__droap_cart {
+        left: auto;
+        right: 0;
+    }
+
+    .progress-wrap {
+        right: 30px;
+        bottom: 30px;
+    }
+
+    /* =========================
+        HOME PAGE 01 END
+    ========================== */
+
+
+    /* =========================
+        HOME PAGE 02 START
+    ========================== */
+    .wsus__banner_2 .wsus__banner_text h1 {
+        font-size: 80px;
+    }
+
+    .wsus__single_service_img {
+        height: 200px;
+    }
+
+    .wsus__about_2_img {
+        height: 540px;
+    }
+
+    .wsus__about_2_img::after {
+        bottom: -20px;
+        left: 20px;
+    }
+
+    .wsus__about_2_text h4 {
+        font-size: 24px;
+        line-height: 46px;
+    }
+
+    .wsus__about_2_text {
+        padding-left: 30px;
+    }
+
+    .wsus__about_2_text .img {
+        margin-top: 50px;
+    }
+
+    .wsus__portfolio_2_item {
+        height: 500px;
+    }
+
+    .wsus__portfolio_2_item .text {
+        padding: 30px;
+    }
+
+    .wsus__single_team_2 {
+        height: 425px;
+    }
+
+    .call_to_action_2_bg {
+        background-position: center left !important;
+    }
+
+    .wsus__testimonial_2 .slick-list.draggable {
+        padding: 0px 100px !important;
+    }
+
+    .wsus__single_testimonial_2 {
+        padding: 30px;
+    }
+
+    .wsus__single_event_2_img {
+        width: 220px;
+    }
+
+    .wsus__single_event_2_text {
+        width: 51%;
+        padding: 25px;
+    }
+
+    /* =========================
+        HOME PAGE 02 END
+    ========================== */
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* ==========================
+        HOME PAGE 01 START
+    ========================== */
+    .wsus__header_right {
+        justify-content: center;
+    }
+
+    .main_menu {
+        background: var(--colorWhite);
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu .container {
+        padding: 7px 0px;
+    }
+
+    .main_menu .container::after {
+        display: none;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .main_menu .navbar-nav {
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        line-height: 55px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 14px;
+    }
+
+    .main_menu .right_menu {
+        background: var(--colorWhite);
+        border-top: 1px solid #ddd;
+        margin-top: -1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .main_menu .wsus__droap_menu {
+        left: 25px;
+        max-height: 230px;
+    }
+
+    .right_menu li .wsus__droap_cart {
+        display: none;
+    }
+
+    .wsus__banner_text {
+        padding-top: 207px;
+    }
+
+    .wsus__banner_text h1 {
+        /* font-size: 52px; */
+        /* line-height: initial; */
+    }
+
+    .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .banner_hotline {
+        display: none;
+    }
+
+    .wsus__banner {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .wsus__banner_img .img {
+        height: 800px;
+        margin-top: 25px;
+    }
+
+    .about_img_area {
+        /* padding: 0; */
+    }
+
+    .about_img_area p {
+        /* position: initial; */
+        /* transform: rotate(0deg); */
+        /* -webkit-transform: rotate(0deg); */
+        /* -moz-transform: rotate(0deg); */
+        /* -ms-transform: rotate(0deg); */
+        /* -o-transform: rotate(0deg); */
+    }
+
+    .about_img {
+        /* height: 335px; */
+        margin-bottom: 50px;
+    }
+
+    .about_list_img {
+        /* position: initial; */
+        /* margin: 10px 0px 25px 0px; */
+        /* width: 100%; */
+        /* transform: rotate(0deg); */
+        /* -webkit-transform: rotate(0deg); */
+        /* -moz-transform: rotate(0deg); */
+        /* -ms-transform: rotate(0deg); */
+        /* -o-transform: rotate(0deg); */
+    }
+
+    .about_text {
+        padding-left: 0;
+    }
+
+    .section_heading h2,
+    .section_heading h2 span {
+        font-size: 40px;
+        line-height: initial;
+    }
+
+    .single_counter h2,
+    .single_counter h2 span {
+        font-size: 64px;
+    }
+
+    .single_counter {
+        /* margin-top: 30px; */
+    }
+
+    .wsus__features_img {
+        height: 190px;
+    }
+
+    .wsus_portfolio_text b {
+        /* font-size: 16px; */
+        /* font-weight: 500; */
+        /* color: var(--colorBlack); */
+        /* background: var(--colorWhite); */
+        /* padding: 7px 13px; */
+        /* display: inline-block; */
+    }
+
+    .portfolio_btn_area {
+        /* text-align: start; */
+    }
+
+    .wsus_portfolio_item {
+        height: 390px;
+    }
+
+    .portfolio .slick-dots li button {
+        width: 30px;
+    }
+
+    .wsus__single_img {
+        height: 415px;
+    }
+
+    .wsus__single_testimonial_img {
+        /*! width: 100%; */
+        /*! height: auto; */
+    }
+
+    .wsus__single_testimonial_text {
+        max-width: 71%;
+    }
+
+    .wsus__single_testimonial_text::after {
+        top: 10px;
+        right: 15px;
+    }
+
+    .plaay_btn {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+    }
+
+    .call_to_action_text {
+        padding: 30px;
+    }
+
+    .call_to_action::after {
+        display: none;
+    }
+
+    .wsus__events_text ul li a b {
+        max-width: 64%;
+    }
+
+    .wsus__events_img .text {
+        padding: 30px;
+    }
+
+    .wsus__events_text ul li a {
+        /* padding: 25px; */
+    }
+
+    .wsus__events_text {
+        padding-right: 0;
+    }
+
+    .wsus__events_img {
+        height: 630px;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .wsus__single_blog_img {
+        height: 195px;
+    }
+
+    .wsus__footer_link,
+    .wsus__footer_instagram {
+        margin-top: 50px;
+    }
+
+    .wsus__footer_instagram {
+        padding-left: 0;
+    }
+
+    .wsus__logo_area p {
+        margin-bottom: 20px;
+    }
+
+    .wsus__footer_instagram ul li a {
+        width: 65px;
+        height: 65px;
+    }
+
+    .wsus_portfolio_text {
+        padding: 60px 20px 20px 20px;
+    }
+
+    .call_to_action_text a {
+        width: 90px;
+        height: 90px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    /* ==========================
+        HOME PAGE 01 END
+    ========================== */
+
+
+
+    /* ==========================
+        HOME PAGE 02 START
+    ========================== */
+    .wsus__banner_2 {
+        padding-bottom: 100px;
+    }
+
+    .wsus__single_service_img {
+        height: 230px;
+    }
+
+    .wsus__about_2_img {
+        height: 585px;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+
+    .wsus__about_2_text .top p {
+        max-width: 33%;
+    }
+
+    .wsus__about_2_text h4 {
+        font-size: 28px;
+        line-height: initial;
+    }
+
+    .wsus__portfolio_2_item {
+        height: 580px;
+    }
+
+    .wsus__portfolio_2_item .text {
+        padding: 35px;
+    }
+
+    .wsus__how_it_work_item h4 {
+        margin-top: 15px;
+    }
+
+    .wsus__single_team_2 {
+        height: 480px;
+    }
+
+    .call_to_action_2_bg {
+        padding: 60px;
+        background-position: center left !important;
+    }
+
+    .wsus__testimonial_2 .slick-list.draggable {
+        padding: 0px 0px !important;
+    }
+
+    .wsus__single_testimonial_2 {
+        padding: 20px;
+    }
+
+    .wsus__single_pricing {
+        padding: 30px;
+    }
+
+    .wsus__single_event_2_text {
+        width: 55%;
+    }
+
+    .wsus__footer_subscription {
+        padding: 50px;
+    }
+
+    .wsus__single_service_text {
+        padding: 25px;
+    }
+
+    .wsus__footer_subscription h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__blog_2 {
+        padding-bottom: 195px !important;
+    }
+
+    /* ==========================
+        HOME PAGE 02 END
+    ========================== */
+
+
+}
 
 
 
@@ -92,7 +890,7 @@
     }
 
     .wsus__banner_img .img {
-        height: auto;
+        height: 715px;
         margin-top: 25px;
     }
 
@@ -110,7 +908,7 @@
     }
 
     .about_img {
-        height: auto;
+        height: 335px;
     }
 
     .about_list_img {
@@ -130,7 +928,7 @@
 
     .section_heading h2,
     .section_heading h2 span {
-        font-size: 28px;
+        font-size: 32px;
         line-height: initial;
     }
 
@@ -144,7 +942,11 @@
     }
 
     .wsus__features_img {
-        height: auto;
+        height: 280px;
+    }
+
+    .wsus_portfolio_text b {
+        font-size: 16px;
     }
 
     .portfolio_btn_area {
@@ -164,12 +966,12 @@
     }
 
     .wsus__single_testimonial_img {
-        width: 100%;
-        height: auto;
+        /*! width: 100%; */
+        /*! height: auto; */
     }
 
     .wsus__single_testimonial_text {
-        max-width: 100%;
+        max-width: 63%;
     }
 
     .wsus__single_testimonial_text::after {
@@ -196,7 +998,7 @@
     }
 
     .wsus__events_img .text {
-        padding: 10px;
+        padding: 30px;
     }
 
     .wsus__events_text ul li a {
@@ -208,13 +1010,13 @@
     }
 
     .wsus__events_img {
-        height: auto;
+        height: 470px;
         margin-left: 0;
         margin-top: 25px;
     }
 
     .wsus__single_blog_img {
-        height: auto;
+        height: 300px;
     }
 
     .wsus__footer_link,
@@ -239,12 +1041,108 @@
         padding: 60px 20px 20px 20px;
     }
 
+    .call_to_action_text a {
+        width: 90px;
+        height: 90px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
     /* ==========================
         HOME PAGE 01 END
     ========================== */
 
 
+    /* ==========================
+        HOME PAGE 02 START
+    ========================== */
+    .wsus__banner_2 {
+        padding-bottom: 100px;
+    }
 
+    .wsus__single_service_img {
+        height: 350px;
+    }
+
+    .wsus__about_2_img {
+        height: 585px;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+
+    .wsus__about_2_text .top p {
+        max-width: 50%;
+    }
+
+    .wsus__about_2_text h4 {
+        font-size: 28px;
+        line-height: initial;
+    }
+
+    .wsus__portfolio_2_item {
+        height: 440px;
+    }
+
+    .wsus__portfolio_2_item .text {
+        padding: 35px;
+    }
+
+    .wsus__how_it_work_item h4 {
+        margin-top: 15px;
+    }
+
+    .wsus__single_team_2 {
+        height: 355px;
+    }
+
+    .call_to_action_2_bg {
+        padding: 30px;
+    }
+
+    .call_to_action_2_bg {
+        padding: 30px;
+        background-position: center left !important;
+    }
+
+    .wsus__testimonial_2 .slick-list.draggable {
+        padding: 0px 0px !important;
+    }
+
+    .wsus__single_testimonial_2 {
+        padding: 20px;
+    }
+
+    .wsus__single_event_2_img {
+        width: 100%;
+        height: 565px;
+    }
+
+    .wsus__single_event_2_text {
+        width: 100%;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .wsus__footer_subscription {
+        padding: 30px;
+    }
+
+    .wsus__footer_subscription h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__blog_2 {
+        padding-bottom: 195px !important;
+    }
+
+
+    /* ==========================
+        HOME PAGE 02 END
+    ========================== */
 
 
 
@@ -257,7 +1155,7 @@
 @media (max-width: 575.99px) {
 
     /* ==========================
-        HOME PAGE 01 END
+        HOME PAGE 01 START
     ========================== */
     .wsus__header_right {
         justify-content: center;
@@ -269,7 +1167,7 @@
     }
 
     .main_menu .container {
-        padding: 7px 0px;
+        padding: 7px 0px !important;
     }
 
     .main_menu .container::after {
@@ -472,8 +1370,122 @@
         margin-bottom: 20px;
     }
 
+    .call_to_action_text h4 {
+        font-size: 22px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+        bottom: 20px;
+    }
+
     /* ==========================
         HOME PAGE 01 END
+    ========================== */
+
+
+    /* ==========================
+        HOME PAGE 02 START
+    ========================== */
+    .wsus__banner_2 {
+        padding-bottom: 100px;
+    }
+
+    .wsus__single_service_img {
+        height: auto;
+    }
+
+    .wsus__about_2_img {
+        height: auto;
+        margin-right: 25px;
+        margin-bottom: 50px;
+    }
+
+    .wsus__about_2_text .top p {
+        font-size: 16px;
+        max-width: 58%;
+    }
+
+    .wsus__about_2_text h4 {
+        font-size: 20px;
+        line-height: initial;
+    }
+
+    .wsus__portfolio_2_item {
+        height: auto;
+    }
+
+    .wsus__how_it_work_item h4 {
+        margin-top: 15px;
+    }
+
+    .wsus__single_team_2 {
+        height: auto;
+    }
+
+    .call_to_action_2_bg {
+        padding: 30px;
+    }
+
+    .call_to_action_2_bg {
+        padding: 30px;
+        background-position: center left !important;
+    }
+
+    .wsus__testimonial_2 .slick-list.draggable {
+        padding: 0px 0px !important;
+    }
+
+    .wsus__single_testimonial_2 {
+        padding: 25px;
+        margin: 0px 25px;
+    }
+
+    .wsus__single_event_2_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wsus__single_event_2_text {
+        width: 100%;
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .wsus__single_pricing {
+        padding: 25px;
+    }
+
+    .wsus__footer_subscription {
+        padding: 25px;
+    }
+
+    .wsus__footer_subscription h3 {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .wsus__footer_subscription form button {
+        position: initial;
+        width: 100%;
+    }
+
+    .wsus__blog_2 {
+        padding-bottom: 195px !important;
+    }
+
+    .wsus__single_pricing::after {
+        width: 75px;
+        height: 120px;
+    }
+
+    .testimonial_2_bottom_btn {
+        font-size: 14px;
+    }
+
+    /* ==========================
+        HOME PAGE 02 END
     ========================== */
 
 
