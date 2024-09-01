@@ -8,6 +8,15 @@
         padding: 0px 250px !important;
     }
 
+    .wsus__banner_3 .wsus__banner_img .img {
+        height: 670px;
+    }
+
+    .wsus__services_2,
+    .wsus__faq {
+        padding-left: 63px;
+    }
+
 }
 
 
@@ -84,16 +93,67 @@
         padding: 35px;
     }
 
-
-
-
-
-
-
-
-
     /* ==========================
         HOME PAGE 02 END
+    ========================== */
+
+    /* ==========================
+        HOME PAGE 03 START
+    ========================== */
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 110px;
+    }
+
+    .wsus__banner_3 .wsus__banner_text h1 {
+        font-size: 62px;
+    }
+
+    .wsus__footer_3_call h2 {
+        max-width: 450px;
+    }
+
+    .wsus__services_2,
+    .wsus__faq {
+        padding-left: 50px;
+    }
+
+    .footer_3::after {
+        width: 110px;
+        height: 120px;
+        top: 250px;
+    }
+
+    .wsus__single_services_2 {
+        padding: 40px 30px;
+    }
+
+    .wsus__case_studies .nextArrow,
+    .wsus__case_studies .prevArrow,
+    .wsus__blog_3 .nextArrow,
+    .wsus__blog_3 .prevArrow {
+        right: 40px;
+    }
+
+    .wsus__case_studies .prevArrow,
+    .wsus__blog_3 .prevArrow {
+        right: 100px;
+    }
+
+    .wsus__about_us_2_img .text {
+        left: auto;
+        right: -60px;
+    }
+
+    .wsus__services_2_banner {
+        height: 817px;
+    }
+
+    .home_3 .wsus__faq_text {
+        margin-top: 0;
+    }
+
+    /* ==========================
+        HOME PAGE 03 END
     ========================== */
 
 
@@ -228,14 +288,141 @@
         padding: 35px;
     }
 
-
-
-
     /* ==========================
         HOME PAGE 02 END
     ========================== */
 
 
+    /* ==========================
+        HOME PAGE 03 START
+    ========================== */
+    .wsus__banner_3 .wsus__banner_text h1 {
+        font-size: 54px;
+    }
+
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 110px;
+    }
+
+    .wsus__about_us_2_img .text {
+        left: auto;
+        right: -60px;
+    }
+
+    .wsus__about_us_2_img {
+        height: 500px;
+    }
+
+    .wsus__services_2,
+    .wsus__faq {
+        padding-left: 45px;
+    }
+
+    .wsus__single_services_2 {
+        padding: 25px 20px;
+    }
+
+    .wsus__single_services_2 .icon {
+        margin-bottom: 15px;
+    }
+
+    .wsus__single_services_2 .title {
+        font-size: 20px;
+    }
+
+    .wsus__single_services_2 p {
+        margin-bottom: 20px;
+    }
+
+    .wsus__services_2_banner {
+        height: 641px;
+    }
+
+    .wsus__footer_3_call h2 {
+        max-width: 500px;
+    }
+
+    .wsus__video_text h2,
+    .wsus__video_text h2 span {
+        font-size: 64px;
+    }
+
+    .wsus__case_studies .nextArrow,
+    .wsus__case_studies .prevArrow {
+        right: 53px;
+    }
+
+    .wsus__case_studies .prevArrow {
+        right: 112px;
+    }
+
+    .footer_3::after {
+        width: 140px;
+        height: 155px;
+        top: 255px;
+    }
+
+    .wsus__blog_3 .nextArrow,
+    .wsus__blog_3 .prevArrow {
+        right: 30px;
+    }
+
+    .wsus__blog_3 .prevArrow {
+        right: 90px;
+    }
+
+    .home_3 .wsus__faq_text .section_heading h2 {
+        font-size: 40px;
+    }
+
+    .home_3 .wsus__faq_text {
+        margin-top: 0;
+    }
+
+    .wsus__accordian_area {
+        padding-right: 0;
+    }
+
+    /* ==========================
+        HOME PAGE 03 END
+    ========================== */
+
+
+    /* ==========================
+        BLOG DETAILS END
+    ========================== */
+    .wsus__blog_det_text_top .bg {
+        padding: 30px;
+    }
+
+    .wsus__blog_det_thumbnail {
+        height: 450px;
+    }
+
+    .wsus__blog_det_text ul li,
+    .wsus__blog_det_text ol li {
+        width: 100%;
+    }
+
+    .wsus__blog_det_text .details_quote {
+        padding: 35px 150px 40px 35px;
+    }
+
+    .wsus__service_details_center_img {
+        height: 195px;
+    }
+
+    .details_share_and_tags .share {
+        margin-top: 25px;
+    }
+
+    .wsus__sidebar_post ul li .text {
+        max-width: 52%;
+    }
+
+    /* ==========================
+        BLOG DETAILS END
+    ========================== */
 
 
 
@@ -284,12 +471,12 @@
     }
 
     .about_img {
-        height: 250px;
+        height: 370px;
     }
 
     .about_list_img {
         position: initial;
-        margin-top: 25px;
+        margin-top: -75px;
         transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -461,10 +648,166 @@
     ========================== */
 
 
+    /* =========================
+        HOME PAGE 03 START
+    ========================== */
+    .wsus__banner_3 .wsus__banner_text h1 {
+        font-size: 46px;
+        line-height: initial;
+    }
+
+    .wsus__banner_3 .wsus__banner_img .img {
+        height: 575px;
+    }
+
+    .wsus__banner_3 .wsus__banner_text {
+        padding-top: 125px;
+    }
+
+    .wsus__about_us_2_text ul li {
+        width: 100%;
+    }
+
+    .wsus__about_us_2_text {
+        padding-left: 30px;
+    }
+
+    .wsus__about_us_2_img {
+        height: 500px;
+    }
+
+    .wsus__about_us_2_img .text {
+        bottom: -30px;
+        left: 10px;
+    }
+
+    .wsus__services_2,
+    .wsus__faq {
+        padding-left: 25px;
+    }
+
+    .wsus__services_2_banner {
+        height: 615px;
+    }
+
+    .wsus__video_text h2,
+    .wsus__video_text h2 span {
+        font-size: 56px;
+    }
+
+    .wsus__single_case_studies {
+        height: 275px;
+    }
+
+    .wsus__case_studies .nextArrow,
+    .wsus__case_studies .prevArrow,
+    .wsus__blog_3 .nextArrow,
+    .wsus__blog_3 .prevArrow {
+        right: 32px;
+    }
+
+    .wsus__case_studies .prevArrow,
+    .wsus__blog_3 .prevArrow {
+        right: 92px;
+    }
+
+    .wsus__single_testimonial_3_img .img {
+        width: 270px;
+        height: 355px;
+    }
+
+    .wsus__single_testimonial_3_text p {
+        font-size: 24px;
+        line-height: 44px;
+    }
+
+    .wsus__accordian_area .accordion-header button {
+        font-size: 15px;
+    }
+
+    .home_3 .wsus__faq_text .section_heading h2 {
+        font-size: 34px;
+    }
+
+    .footer_3 .wsus__footer_location {
+        margin-top: 50px;
+    }
+
+    .footer_3::after {
+        width: 135px;
+        height: 150px;
+        top: 255px;
+    }
+
+    .wsus__accordian_area {
+        padding-right: 0;
+    }
+
+    /* =========================
+        HOME PAGE 03 END
+    ========================== */
+
+
+    /* ==========================
+        ABOUT PAGE START
+    ========================== */
+    .wsus__breadcrumb {
+        padding: 200px 0px 100px 0px;
+    }
+
+    .wsus__breadcrumb_text h1 {
+        font-size: 36px;
+    }
+
+    /* ==========================
+        ABOUT PAGE END
+    ========================== */
+
+
+    /* ==========================
+        BLOG DETAILS END
+    ========================== */
+    .wsus__blog_det_text_top .bg {
+        padding: 30px;
+    }
+
+    .wsus__blog_det_thumbnail {
+        height: 450px;
+    }
+
+    .wsus__blog_det_text ul li,
+    .wsus__blog_det_text ol li {
+        width: 100%;
+    }
+
+    .wsus__blog_det_text .details_quote {
+        padding: 35px 150px 40px 35px;
+    }
+
+    .wsus__service_details_center_img {
+        height: 195px;
+    }
+
+    .details_share_and_tags .share {
+        margin-top: 25px;
+    }
+
+    .wsus__sidebar_post ul li .text {
+        max-width: 52%;
+    }
+
+    /* ==========================
+        BLOG DETAILS END
+    ========================== */
+
+
+
+
+
+
+
 
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991.99px) {
 
@@ -746,7 +1089,7 @@
     }
 
     .wsus__portfolio_2_item {
-        height: 580px;
+        height: 530px;
     }
 
     .wsus__portfolio_2_item .text {
@@ -804,11 +1147,257 @@
     ========================== */
 
 
+    /* ==========================
+        HOME PAGE 03 START
+    ========================== */
+    .wsus__banner_3 .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .wsus__banner_3 .wsus__banner_img .img::after {
+        display: none;
+    }
+
+    .wsus__about_us_2_img {
+        height: 565px;
+    }
+
+    .wsus__about_us_2_img .text {
+        /* bottom: 15px; */
+        left: auto;
+        right: -90px;
+    }
+
+    .wsus__about_us_2_text {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .wsus__about_us_2_text ul li {
+        /* width: 100%; */
+    }
+
+    .wsus__services_2,
+    .wsus__faq {
+        padding: 0px 12px;
+    }
+
+    .wsus__services_2_banner {
+        height: 475px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__video_text h2,
+    .wsus__video_text h2 span {
+        font-size: 42px;
+        line-height: initial;
+    }
+
+    .wsus__single_case_studies {
+        height: 220px;
+    }
+
+    .wsus__single_testimonial_3_text {
+        padding: 45px;
+    }
+
+    .wsus__single_testimonial_3_text p {
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .wsus__single_testimonial_3_img .img {
+        width: 300px;
+        height: 385px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .wsus__accordian_area {
+        padding-right: 0;
+    }
+
+    .wsus__faq_img {
+        height: 470px;
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+
+    .wsus__accordian_area .accordion-header button {
+        /* font-size: 16px; */
+    }
+
+    .wsus__team_2 .wsus__single_img {
+        height: 465px;
+    }
+
+    .wsus__consulation_img {
+        height: 390px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_blog_3 {
+        height: 300px;
+    }
+
+    .wsus__single_blog_3 .text {
+        padding: 35px;
+    }
+
+    .wsus__single_blog_3 .text .read_btn {
+        /* margin-top: 15px; */
+        /* padding-top: 0; */
+    }
+
+    .wsus__single_blog_3 .text .title {
+        /* font-size: 18px; */
+        /* max-width: 100%; */
+    }
+
+    .wsus__single_blog_3 .text p {
+        /* margin-bottom: 10px; */
+    }
+
+    .footer_3::after {
+        display: none;
+    }
+
+    .wsus__footer_3_call h2 {
+        font-size: 36px;
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .wsus__footer_location {
+        margin-top: 50px;
+    }
+
+    .wsus__banner_3 .wsus__banner_text h1 {
+        font-size: 52px;
+    }
+
+    .wsus__banner_3 .wsus__banner_img .img {
+        height: 530px;
+    }
+
+    .home_3 .main_menu .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .wsus__blog_3 .nextArrow,
+    .wsus__blog_3 .prevArrow {
+        right: 13px;
+        top: -63px;
+    }
+
+    .wsus__blog_3 .prevArrow {
+        right: 73px;
+    }
+
+    .wsus__footer_location ul li .text {
+        max-width: 76%;
+    }
+
+    .footer_3 .wsus__footer_link,
+    .footer_3 .wsus__footer_instagram {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer_3 .wsus__footer_location {
+        margin-top: 0;
+    }
+
+    .footer_3 .wsus__footer_copyright_area {
+        margin-top: 50px !important;
+    }
+
+    .wsus__case_studies .nextArrow,
+    .wsus__case_studies .prevArrow {
+        right: 50px;
+    }
+
+    .wsus__case_studies .prevArrow {
+        right: 110px;
+    }
+
+    .home_3 .wsus__team_2 .wsus__single_img {
+        height: 305px;
+    }
+
+    .home_3 .wsus__faq_text {
+        margin-top: 50px !important;
+    }
+
+    /* ==========================
+        HOME PAGE 03 END
+    ========================== */
+
+    /* ==========================
+        ABOUT PAGE START
+    ========================== */
+    .wsus__breadcrumb {
+        padding: 180px 0px 80px 0px;
+    }
+
+    .wsus__breadcrumb_text h1 {
+        font-size: 36px;
+    }
+
+    /* ==========================
+        ABOUT PAGE END
+    ========================== */
+
+
+    /* ==========================
+        BLOG DETAILS START
+    ========================== */
+    .wsus__blog_det_thumbnail {
+        height: 335px;
+    }
+
+    .wsus__blog_det_text_top .bg {
+        padding: 30px;
+    }
+
+    .wsus__blog_det_text_top {
+        margin-top: -25px;
+    }
+
+    .wsus__blog_det_text_top h2 {
+        font-size: 32px;
+    }
+
+    .wsus__blog_det_text ul li,
+    .wsus__blog_det_text ol li {
+        width: 100%;
+    }
+
+    .wsus__service_details_center_img {
+        height: 220px;
+    }
+
+    .details_share_and_tags .share {
+        margin-top: 25px;
+    }
+
+    .wsus__blog_det_area {
+        margin-bottom: 20px;
+    }
+
+    .wsus__sidebar_post ul li .text {
+        max-width: 75%;
+    }
+
+    /* ==========================
+        BLOG DETAILS END
+    ========================== */
+
+
+
+
 }
-
-
-
-
 
 @media (min-width: 576px) and (max-width: 767.99px) {
 
@@ -1139,18 +1728,251 @@
         padding-bottom: 195px !important;
     }
 
-
     /* ==========================
         HOME PAGE 02 END
     ========================== */
 
 
+    /* ==========================
+        HOME PAGE 03 START
+    ========================== */
+    .wsus__banner_3 .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .wsus__banner_3 .wsus__banner_img .img::after {
+        display: none;
+    }
+
+    .wsus__about_us_2_img {
+        height: 570px;
+    }
+
+    .wsus__about_us_2_img .text {
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .wsus__about_us_2_text {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .wsus__about_us_2_text ul li {
+        width: 100%;
+    }
+
+    .wsus__services_2,
+    .wsus__faq {
+        padding: 0px 12px;
+    }
+
+    .wsus__services_2_banner {
+        height: 720px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__video_text h2,
+    .wsus__video_text h2 span {
+        font-size: 42px;
+        line-height: initial;
+    }
+
+    .wsus__single_case_studies {
+        height: auto;
+    }
+
+    .wsus__single_testimonial_3_text {
+        padding: 45px;
+    }
+
+    .wsus__single_testimonial_3_text p {
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .wsus__single_testimonial_3_img .img {
+        width: 300px;
+        height: 385px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .wsus__accordian_area {
+        padding-right: 0;
+    }
+
+    .wsus__faq_img {
+        height: 470px;
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+
+    .wsus__accordian_area .accordion-header button {
+        /* font-size: 16px; */
+    }
+
+    .wsus__team_2 .wsus__single_img {
+        height: 465px;
+    }
+
+    .wsus__consulation_img {
+        height: 390px;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_blog_3 {
+        height: auto;
+    }
+
+    .wsus__single_blog_3 .text {
+        padding: 35px;
+    }
+
+    .wsus__single_blog_3 .text .read_btn {
+        /* margin-top: 15px; */
+        /* padding-top: 0; */
+    }
+
+    .wsus__single_blog_3 .text .title {
+        /* font-size: 18px; */
+        /* max-width: 100%; */
+    }
+
+    .wsus__single_blog_3 .text p {
+        /* margin-bottom: 10px; */
+    }
+
+    .footer_3::after {
+        display: none;
+    }
+
+    .wsus__footer_3_call h2 {
+        font-size: 36px;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .wsus__footer_location {
+        margin-top: 50px;
+    }
+
+    .wsus__banner_3 .wsus__banner_text h1 {
+        font-size: 52px;
+    }
+
+    .wsus__banner_3 .wsus__banner_img .img {
+        height: 530px;
+    }
+
+    .home_3 .main_menu .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .wsus__blog_3 .nextArrow,
+    .wsus__blog_3 .prevArrow {
+        right: 13px;
+        top: -63px;
+    }
+
+    .wsus__blog_3 .prevArrow {
+        right: 73px;
+    }
+
+    .wsus__footer_location ul li .text {
+        max-width: 76%;
+    }
+
+    .footer_3 .wsus__footer_link,
+    .footer_3 .wsus__footer_instagram {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer_3 .wsus__footer_location {
+        margin-top: 0;
+    }
+
+    .footer_3 .wsus__footer_copyright_area {
+        margin-top: 50px !important;
+    }
+
+    .home_3 .wsus__faq_text {
+        margin-top: 50px !important;
+    }
+
+    /* ==========================
+        HOME PAGE 03 END
+    ========================== */
+
+    /* ==========================
+        ABOUT PAGE START
+    ========================== */
+    .wsus__breadcrumb {
+        padding: 160px 0px 60px 0px;
+    }
+
+    .wsus__breadcrumb_text h1 {
+        font-size: 32px;
+    }
+
+    /* ==========================
+        ABOUT PAGE END
+    ========================== */
+
+    /* ==========================
+        BLOG DETAILS START
+    ========================== */
+    .wsus__blog_det_thumbnail {
+        height: 250px;
+    }
+
+    .wsus__blog_det_text_top .bg {
+        padding: 20px;
+    }
+
+    .wsus__blog_det_text_top {
+        margin-top: -25px;
+        padding-left: 0;
+    }
+
+    .wsus__blog_det_text_top h2 {
+        font-size: 26px;
+    }
+
+    .wsus__blog_det_text ul li,
+    .wsus__blog_det_text ol li {
+        width: 100%;
+    }
+
+    .wsus__blog_det_text .details_quote {
+        padding: 25px;
+    }
+
+    .wsus__service_details_center_img {
+        height: 340px;
+    }
+
+    .details_share_and_tags .share {
+        margin-top: 25px;
+    }
+
+    .wsus__blog_det_area {
+        margin-bottom: 20px;
+    }
+
+    .wsus__sidebar_post ul li .text {
+        max-width: 75%;
+    }
+
+    /* ==========================
+        BLOG DETAILS END
+    ========================== */
+
+
 
 }
-
-
-
-
 
 @media (max-width: 575.99px) {
 
@@ -1214,7 +2036,7 @@
     }
 
     .wsus__banner_text h1 {
-        font-size: 36px;
+        font-size: 36px !important;
         line-height: initial;
     }
 
@@ -1487,6 +2309,209 @@
     /* ==========================
         HOME PAGE 02 END
     ========================== */
+
+
+    /* ==========================
+        HOME PAGE 03 START
+    ========================== */
+    .wsus__banner_3 .wsus__banner_text p {
+        max-width: 100%;
+    }
+
+    .wsus__banner_3 .wsus__banner_img .img::after {
+        display: none;
+    }
+
+    .wsus__about_us_2_img {
+        height: auto;
+    }
+
+    .wsus__about_us_2_img .text {
+        position: relative;
+        bottom: 30px;
+        left: 0;
+    }
+
+    .wsus__about_us_2_text {
+        padding-left: 0;
+    }
+
+    .wsus__about_us_2_text ul li {
+        width: 100%;
+    }
+
+    .wsus__services_2,
+    .wsus__faq {
+        padding: 0px 12px;
+    }
+
+    .wsus__services_2_banner {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .wsus__video_text h2,
+    .wsus__video_text h2 span {
+        font-size: 42px;
+        line-height: initial;
+    }
+
+    .wsus__single_case_studies {
+        height: auto;
+    }
+
+    .wsus__single_testimonial_3_text {
+        padding: 30px;
+    }
+
+    .wsus__single_testimonial_3_text p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .wsus__single_testimonial_3_img .img {
+        width: 260px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .wsus__accordian_area {
+        padding-right: 0;
+    }
+
+    .wsus__faq_img {
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+
+    .wsus__accordian_area .accordion-header button {
+        font-size: 16px;
+    }
+
+    .wsus__team_2 .wsus__single_img {
+        height: auto;
+    }
+
+    .wsus__consulation_img {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .wsus__single_blog_3 {
+        height: auto;
+    }
+
+    .wsus__single_blog_3 .text {
+        padding: 20px;
+    }
+
+    .wsus__single_blog_3 .text .read_btn {
+        margin-top: 15px;
+        padding-top: 0;
+    }
+
+    .wsus__single_blog_3 .text .title {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .wsus__single_blog_3 .text p {
+        margin-bottom: 10px;
+    }
+
+    .footer_3::after {
+        display: none;
+    }
+
+    .wsus__footer_3_call h2 {
+        font-size: 32px;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .wsus__footer_location {
+        margin-top: 50px;
+    }
+
+    .home_3 .wsus__faq_text {
+        margin-top: 50px !important;
+    }
+
+    /* ==========================
+        HOME PAGE 03 END
+    ========================== */
+
+
+    /* ==========================
+        ABOUT PAGE START
+    ========================== */
+    .wsus__breadcrumb {
+        padding: 160px 0px 55px 0px;
+    }
+
+    .wsus__breadcrumb_text h1 {
+        font-size: 26px;
+    }
+
+    /* ==========================
+        ABOUT PAGE END
+    ========================== */
+
+    /* ==========================
+        BLOG DETAILS START
+    ========================== */
+    .wsus__blog_det_thumbnail {
+        height: auto;
+    }
+
+    .wsus__blog_det_text_top .bg {
+        padding: 20px;
+    }
+
+    .wsus__blog_det_text_top {
+        margin-top: -25px;
+        padding-left: 0;
+    }
+
+    .wsus__blog_det_text_top h2 {
+        font-size: 22px;
+    }
+
+    .wsus__blog_det_text ul li,
+    .wsus__blog_det_text ol li {
+        width: 100%;
+    }
+
+    .wsus__blog_det_text .details_quote {
+        padding: 25px;
+    }
+
+    .wsus__service_details_center_img {
+        height: auto;
+    }
+
+    .details_share_and_tags .share {
+        margin-top: 25px;
+    }
+
+    .wsus__blog_det_area {
+        margin-bottom: 20px;
+    }
+
+    .wsus__sidebar_post ul li .text {
+        max-width: 52%;
+    }
+
+    /* ==========================
+        BLOG DETAILS END
+    ========================== */
+
+
+
+
+
 
 
 

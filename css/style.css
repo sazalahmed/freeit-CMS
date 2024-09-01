@@ -2375,6 +2375,7 @@ footer {
     border-right: 1px solid #797979;
     height: 700px;
     overflow: hidden;
+    display: block;
 }
 
 .wsus__portfolio_2_item .text {
@@ -3107,7 +3108,7 @@ footer {
 }
 
 .wsus__banner_3 .wsus__banner_text h1 {
-    font-size: 68px;
+    font-size: 62px;
 }
 
 .wsus__banner_3 .wsus__banner_text p {
