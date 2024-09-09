@@ -5743,11 +5743,6 @@ footer {
     color: var(--colorBlack);
 }
 
-.wsus__checkout_area {
-    padding-bottom: 60px;
-    border-bottom: 1px solid #EFF0F3;
-}
-
 .wsus__checkout_form h4 {
     font-size: 20px;
     font-weight: 500;
@@ -5859,6 +5854,10 @@ footer {
     font-family: var(--headingFont);
     color: var(--colorBlack);
     text-transform: capitalize;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .wsus__billing_product li .text a:hover {
@@ -6576,7 +6575,7 @@ footer {
 .wsus__cart_list .pro_img {
     width: 15%;
     min-width: 180px;
-    padding-right: 115px !important;
+    padding-right: 50px !important;
     text-align: center;
 }
 
@@ -7072,11 +7071,13 @@ footer {
 .wsus__contact_map {
     overflow: hidden;
     border: 1px solid #eee;
+    height: 100%;
+    min-height: 300px;
 }
 
 .wsus__contact_map iframe {
     width: 100%;
-    height: 328px;
+    height: 100%;
     overflow: hidden;
     margin-bottom: -7px;
 }
