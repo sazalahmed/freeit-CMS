@@ -3654,8 +3654,6 @@ footer {
     filter: none;
 }
 
-.wsus__faq_text {}
-
 .wsus__faq_text ul {
     margin-top: 45px;
 }
@@ -4596,7 +4594,8 @@ footer {
 
 .wsus__team_details_top h2 {
     font-size: 46px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .wsus__team_details_top p {
@@ -4698,7 +4697,7 @@ footer {
 
 .wsus__team_details_contact h2 {
     font-size: 46px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .wsus__team_details_contact input,
@@ -5095,6 +5094,10 @@ footer {
     color: var(--colorBlack) !important;
     right: -18px;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .wsus__product_details .prevArrow {
@@ -5490,7 +5493,6 @@ footer {
 
 .wsus__blog_single_comment .text {
     width: 88%;
-    margin-top: 10px;
 }
 
 .wsus__blog_single_comment .text h5 {
@@ -6833,12 +6835,6 @@ footer {
     color: var(--colorWhite);
 }
 
-
-
-
-.wsus__blog_sidebar {}
-
-
 .wsus__blog_sidebar h3 {
     font-size: 18px;
     font-weight: 600;
@@ -6879,11 +6875,6 @@ footer {
 .wsus__sidebar_search form button:hover {
     color: var(--colorPrimary);
 }
-
-
-
-
-.wsus__sidebar_post {}
 
 .wsus__sidebar_post ul {
     padding: 30px;
@@ -6939,14 +6930,9 @@ footer {
     color: var(--colorPrimary);
 }
 
-
-.wsus__sidebar_category {}
-
 .wsus__sidebar_category ul {
     padding: 30px;
 }
-
-.wsus__sidebar_category ul li {}
 
 .wsus__sidebar_category ul li a {
     border-bottom: 1px solid rgba(4, 6, 24, 0.10);
@@ -7009,8 +6995,6 @@ footer {
 /*===================================
     CONTACT US START
 ===================================*/
-.wsus__contact_us {}
-
 .wsus__contact_info {
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -7137,10 +7121,6 @@ footer {
     top: 40px;
     left: 40px;
     z-index: 1;
-}
-
-.wsus__sign_form_area {
-    margin-right: 25px;
 }
 
 .wsus__sign_form_area .nav {
@@ -7485,9 +7465,8 @@ footer {
 }
 
 .wsus__error_area .img {
-    width: 460px;
-    height: 270px;
-    margin: 0px auto;
+    height: auto;
+    max-height: 390px;
 }
 
 .wsus__error_area h2 {
@@ -7495,6 +7474,7 @@ footer {
     font-weight: 700;
     margin-top: 47px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .wsus__error_area p {

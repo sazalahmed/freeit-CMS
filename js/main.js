@@ -606,6 +606,7 @@ $(function () {
     $('.slider-forFive').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
         arrows: true,
         asNavFor: '.slider-navFive',
         nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
@@ -631,6 +632,16 @@ $(function () {
         centerMode: true,
         focusOnSelect: true,
         centerPadding: 0,
+        autoplay: true,
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 3,
+                }
+            }
+        ]
     });
 
 
