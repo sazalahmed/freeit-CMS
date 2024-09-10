@@ -660,13 +660,13 @@ header {
 }
 
 .main_menu .wsus__droap_menu::-webkit-scrollbar {
-    background: var(--paraColor);
+    background: var(--colorWhite);
     width: 3px;
     height: 30px;
 }
 
 .main_menu .wsus__droap_menu::-webkit-scrollbar-thumb {
-    background: var(--colorWhite);
+    background: var(--colorPrimary);
 }
 
 .main_menu .wsus__droap_menu li a {
@@ -2736,7 +2736,6 @@ footer {
     display: block;
     width: 15px;
     filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7465%) hue-rotate(247deg) brightness(93%) contrast(107%);
-    margin-top: -3px;
 }
 
 .wsus__single_event_2_text .title {
@@ -2760,7 +2759,6 @@ footer {
 .wsus__single_event_2_text .time span {
     display: block;
     width: 15px;
-    margin-top: -3px;
 }
 
 .wsus__event_2 .wsus__single_event_2 {

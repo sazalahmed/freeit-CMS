@@ -1,0 +1,341 @@
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+.slick-list {
+    direction: ltr;
+}
+
+
+
+
+
+
+.wsus__header_left a span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__header_right li .nice-select {
+    border-right: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.wsus__header_right li .nice-select::after {
+    right: auto;
+    left: 16px;
+}
+
+.wsus__header_right li a span {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.main_menu .right_menu li .icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.wsus__droap_cart_list li .text {
+    margin-left: 0;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.wsus__droap_cart_list li span {
+    right: auto;
+    left: 0;
+}
+
+.right_menu li .wsus__droap_cart {
+    left: auto;
+    right: 0px;
+}
+
+.common_btn i {
+    margin-left: 0;
+    margin-right: 10px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.banner_hotline::after {
+    right: auto;
+    left: 0;
+}
+
+.about_text {
+    padding-left: 0;
+    padding-right: 70px;
+}
+
+.about_text ul li a span {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.about_text ul li a:hover span {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.heading_left h5,
+.heading_left h2 {
+    text-align: right;
+}
+
+.read_btn i {
+    margin-left: 0;
+    margin-right: 10px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.portfolio_btn_area {
+    text-align: left;
+}
+
+.wsus__single_img ul,
+.wsus__single_img span {
+    right: auto;
+    left: 20px;
+}
+
+.wsus__single_testimonial_text::after {
+    right: auto;
+    left: 30px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.call_to_action_text ul li {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.call_to_action_text ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__events_text ul li a span img {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.wsus__single_blog_img a {
+    left: auto;
+    right: 25px;
+}
+
+.wsus__footer_link ul li a:hover::before {
+    transform-origin: right top;
+}
+
+.wsus__footer_copyright_text ul li {
+    padding-right: 0;
+    padding-left: 15px;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.wsus__footer_copyright_text ul li::after {
+    right: auto;
+    left: 0;
+}
+
+.progress-wrap {
+    right: auto;
+    left: 50px;
+}
+
+.main_menu .wsus__droap_menu {
+    left: auto;
+    right: 0;
+}
+
+.main_menu .wsus__droap_menu li a::after {
+    left: auto;
+    right: -5px;
+}
+
+.main_menu .wsus__droap_menu li a:hover::after,
+.main_menu .wsus__droap_menu li a.active::after {
+    left: auto;
+    right: 0;
+}
+
+.main_menu .wsus__droap_menu li a:hover,
+.main_menu .wsus__droap_menu li a.active {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.wsus__banner_2 .wsus__banner_text h6 {
+    left: auto;
+    right: -250px;
+}
+
+.common_btn_2 {
+    padding: 10px 25px 10px 10px;
+}
+
+.common_btn_2 i {
+    margin-left: 0;
+    margin-right: 15px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__single_service_text a,
+.wsus__single_service_text p {
+    text-align: center;
+}
+
+.wsus__about_2_img::after {
+    left: auto;
+    right: 30px;
+}
+
+.wsus__single_pricing ul li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__single_pricing ul li::after {
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__single_pricing::after {
+    right: auto;
+    left: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__footer_subscription form button {
+    right: auto;
+    left: 6px;
+}
+
+.home_3 .common_btn_2 i {
+    margin-left: 0;
+}
+
+.wsus__banner_3 .wsus__banner_img .img::after {
+    right: auto;
+    left: 70px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__about_us_2_text {
+    padding-left: 0;
+    padding-right: 75px;
+}
+
+.wsus__about_us_2_text ul li {
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.wsus__about_us_2_text ul li::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__about_us_2_img .text {
+    left: auto;
+    right: -90px;
+}
+
+.wsus__services_2,
+.wsus__faq {
+    padding-left: 0;
+    padding-right: 304px;
+}
+
+.wsus__case_studies .nextArrow,
+.wsus__case_studies .prevArrow {
+    left: 375px;
+    right: auto;
+}
+
+.wsus__case_studies .prevArrow {
+    left: 315px;
+}
+
+.single_counter_2 h2,
+.single_counter_2 h2 span {
+    text-align: center;
+}
+
+.wsus__single_testimonial_3_text {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+.wsus__accordian_area {
+    padding-right: 0;
+    padding-left: 55px;
+}
+
+.wsus__accordian_area .accordion-button::after {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+
+.wsus__blog_3 .nextArrow,
+.wsus__blog_3 .prevArrow {
+    left: 350px;
+    right: auto;
+}
+
+.wsus__blog_3 .prevArrow {
+    left: 290px;
+}
+
+.wsus__single_blog_3 .text p span {
+    margin-right: 0;
+    margin-left: 8px;
+}

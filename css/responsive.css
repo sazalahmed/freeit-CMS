@@ -16,9 +16,7 @@
     .wsus__faq {
         padding-left: 63px;
     }
-
 }
-
 
 @media (min-width: 1400px) and (max-width: 1599.99px) {
 
@@ -72,11 +70,9 @@
         HOME PAGE 01 END
     ========================== */
 
-
     /* ==========================
         HOME PAGE 02 START
     ========================== */
-
     .wsus__portfolio_2_item {
         height: 520px;
     }
@@ -160,8 +156,6 @@
     .wsus__team_details_contact h2 {
         font-size: 38px;
     }
-
-
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -296,7 +290,6 @@
         HOME PAGE 02 END
     ========================== */
 
-
     /* ==========================
         HOME PAGE 03 START
     ========================== */
@@ -391,7 +384,6 @@
         HOME PAGE 03 END
     ========================== */
 
-
     /* ==========================
         BLOG DETAILS END
     ========================== */
@@ -427,7 +419,6 @@
     /* ==========================
         BLOG DETAILS END
     ========================== */
-
     .wsus__breadcrumb {
         padding: 200px 0px 100px 0px;
     }
@@ -514,12 +505,7 @@
     .wsus__video_gallery_item {
         height: 320px;
     }
-
-
-
 }
-
-
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
@@ -667,7 +653,6 @@
         HOME PAGE 01 END
     ========================== */
 
-
     /* =========================
         HOME PAGE 02 START
     ========================== */
@@ -737,7 +722,6 @@
     /* =========================
         HOME PAGE 02 END
     ========================== */
-
 
     /* =========================
         HOME PAGE 03 START
@@ -838,7 +822,6 @@
         HOME PAGE 03 END
     ========================== */
 
-
     /* ==========================
         ABOUT PAGE START
     ========================== */
@@ -853,7 +836,6 @@
     /* ==========================
         ABOUT PAGE END
     ========================== */
-
 
     /* ==========================
         BLOG DETAILS END
@@ -890,7 +872,6 @@
     /* ==========================
         BLOG DETAILS END
     ========================== */
-
     .wsus__career_details_top .thumbnail {
         height: 415px;
     }
@@ -921,7 +902,6 @@
         width: 100%;
     }
 
-
     .wsus__payment_option {
         margin-right: 0;
         margin-bottom: 50px;
@@ -946,12 +926,6 @@
     .wsus__single_pricing {
         padding: 25px;
     }
-
-
-
-
-
-
 
     .wsus__product_summary {
         margin-left: 25px;
@@ -997,9 +971,6 @@
         font-size: 15px;
     }
 
-
-
-
     .wsus__details_img .img {
         height: 560px;
     }
@@ -1017,19 +988,6 @@
     .wsus__video_gallery_item {
         height: 270px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -1227,8 +1185,6 @@
         HOME PAGE 01 END
     ========================== */
 
-
-
     /* ==========================
         HOME PAGE 02 START
     ========================== */
@@ -1312,7 +1268,6 @@
     /* ==========================
         HOME PAGE 02 END
     ========================== */
-
 
     /* ==========================
         HOME PAGE 03 START
@@ -1493,7 +1448,6 @@
         ABOUT PAGE END
     ========================== */
 
-
     /* ==========================
         BLOG DETAILS START
     ========================== */
@@ -1538,7 +1492,6 @@
     /* ==========================
         BLOG DETAILS END
     ========================== */
-
     .wsus__career_details_top .thumbnail {
         height: 310px;
     }
@@ -1584,8 +1537,6 @@
         margin-bottom: 50px !important;
     }
 
-
-
     .wsus__payment_option {
         margin-right: 0;
         margin-bottom: 50px;
@@ -1610,9 +1561,6 @@
     .wsus__portfolio_page .wsus_portfolio_item {
         height: 350px;
     }
-
-
-
 
     .wsus__product_details_slide_show_img {
         height: 530px;
@@ -1675,9 +1623,6 @@
     .wsus__video_gallery_item {
         height: 385px;
     }
-
-
-
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1920,7 +1865,6 @@
         HOME PAGE 01 END
     ========================== */
 
-
     /* ==========================
         HOME PAGE 02 START
     ========================== */
@@ -2007,7 +1951,6 @@
     /* ==========================
         HOME PAGE 02 END
     ========================== */
-
 
     /* ==========================
         HOME PAGE 03 START
@@ -2227,7 +2170,6 @@
     /* ==========================
         BLOG DETAILS END
     ========================== */
-
     .wsus__pagination ul li a {
         width: 45px;
         height: 45px;
@@ -2261,8 +2203,6 @@
     .wsus__error_area h2 {
         font-size: 42px;
     }
-
-
 
     .wsus__details_thumbnail {
         height: 310px;
@@ -2309,10 +2249,6 @@
     .wsus__portfolio_page .wsus_portfolio_item {
         height: 545px;
     }
-
-
-
-
 
     .wsus__product_details_slide_show_img {
         height: 530px;
@@ -2386,15 +2322,6 @@
     .wsus__video_gallery_item {
         height: 300px;
     }
-
-
-
-
-
-
-
-
-
 }
 
 @media (max-width: 575.99px) {
@@ -2628,7 +2555,6 @@
         HOME PAGE 01 END
     ========================== */
 
-
     /* ==========================
         HOME PAGE 02 START
     ========================== */
@@ -2732,7 +2658,6 @@
     /* ==========================
         HOME PAGE 02 END
     ========================== */
-
 
     /* ==========================
         HOME PAGE 03 START
@@ -2930,7 +2855,6 @@
     /* ==========================
         BLOG DETAILS END
     ========================== */
-
     .wsus__pagination ul li a {
         width: 40px;
         height: 40px;
@@ -3026,15 +2950,6 @@
         margin-bottom: 50px;
     }
 
-
-
-
-
-
-
-
-
-
     .wsus__product_details_slide_show_img {
         height: auto;
     }
@@ -3114,15 +3029,4 @@
     .wsus__video_gallery_item {
         height: 250px;
     }
-
-
-
-
-
-
-
-
-
-
-
 }
