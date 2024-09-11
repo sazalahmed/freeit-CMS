@@ -1296,7 +1296,7 @@
 
     .wsus__services_2,
     .wsus__faq {
-        padding: 0px 12px;
+        padding: 0px 12px !important;
     }
 
     .wsus__services_2_banner {
@@ -1315,7 +1315,7 @@
     }
 
     .wsus__single_testimonial_3_text {
-        padding: 45px;
+        padding: 45px !important;
     }
 
     .wsus__single_testimonial_3_text p {
@@ -1983,7 +1983,7 @@
 
     .wsus__services_2,
     .wsus__faq {
-        padding: 0px 12px;
+        padding: 0px 12px !important;
     }
 
     .wsus__services_2_banner {
@@ -2002,7 +2002,7 @@
     }
 
     .wsus__single_testimonial_3_text {
-        padding: 45px;
+        padding: 45px !important;
     }
 
     .wsus__single_testimonial_3_text p {
@@ -2148,7 +2148,7 @@
     }
 
     .wsus__blog_det_text .details_quote {
-        padding: 25px;
+        padding: 25px !important;
     }
 
     .wsus__service_details_center_img {
@@ -2321,6 +2321,19 @@
 
     .wsus__video_gallery_item {
         height: 300px;
+    }
+
+    .wsus__breadcrumb_text ul li,
+    .wsus__breadcrumb_text ul li a {
+        font-size: 14px;
+    }
+
+    .wsus__breadcrumb_text ul::after {
+        font-size: 14px;
+    }
+
+    .wsus__breadcrumb_text ul li a::after {
+        top: 8px;
     }
 }
 
@@ -2690,7 +2703,7 @@
 
     .wsus__services_2,
     .wsus__faq {
-        padding: 0px 12px;
+        padding: 0px 12px !important;
     }
 
     .wsus__services_2_banner {
@@ -2709,7 +2722,7 @@
     }
 
     .wsus__single_testimonial_3_text {
-        padding: 30px;
+        padding: 30px !important;
     }
 
     .wsus__single_testimonial_3_text p {
@@ -2833,7 +2846,7 @@
     }
 
     .wsus__blog_det_text .details_quote {
-        padding: 25px;
+        padding: 25px !important;
     }
 
     .wsus__service_details_center_img {
@@ -3028,5 +3041,27 @@
 
     .wsus__video_gallery_item {
         height: 250px;
+    }
+
+    .wsus__blog_3 .nextArrow,
+    .wsus__blog_3 .prevArrow {
+        display: none;
+    }
+
+    .wsus__blog_details_form {
+        padding: 25px;
+    }
+
+    .wsus__breadcrumb_text ul li,
+    .wsus__breadcrumb_text ul li a {
+        font-size: 12px;
+    }
+
+    .wsus__breadcrumb_text ul::after {
+        font-size: 12px;
+    }
+
+    .wsus__breadcrumb_text ul li a::after {
+        top: 6px;
     }
 }
